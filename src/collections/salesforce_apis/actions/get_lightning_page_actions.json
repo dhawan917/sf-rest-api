@@ -1,7 +1,7 @@
 {
-  "id": "dbb0f0f8-771f-4f5a-9f5f-7a28e0bc933c",
+  "id": "c1994adf-33e5-4f5d-848f-f8970d876691",
   "name": "Get Lightning Page Actions",
-  "url": "{{endpoint}}/services/data/v{{version}}/ui-api/actions/flexipage/{flexipageNames}",
+  "url": "{{_endpoint}}/services/data/v{{version}}/ui-api/actions/flexipage/<FLEXIPAGE_NAMES>",
   "description": "Get the actions on Lightning pages (FlexiPages).",
   "data": [],
   "dataOptions": null,
@@ -12,7 +12,7 @@
       "enabled": true,
       "key": "Authorization",
       "type": "text",
-      "value": "{{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     }
   ],
   "method": "GET",
@@ -31,7 +31,7 @@
       }
     }
   ],
-  "folder": "1e76f3df-37a1-470e-af23-8123a244a00c",
+  "folder": "c451b8e5-6f6e-4242-9c63-fac725813b42",
   "protocolProfileBehavior": {
     "disableBodyPruning": true
   },
@@ -39,8 +39,8 @@
   "tests": null,
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
   "rawModeData": "",
-  "headers": "Authorization: {{access_token}}\n",
+  "headers": "Authorization: Bearer {{_accessToken}}\n",
   "pathVariables": {}
 }

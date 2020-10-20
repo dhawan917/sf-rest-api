@@ -1,7 +1,7 @@
 {
-  "id": "b310eb5d-08e5-462c-9cb2-fd2d3d495db4",
+  "id": "12dbaca5-7559-4647-972b-7c4cf20d9499",
   "name": "Bulk Retrieve Batch Result",
-  "url": "{{endpoint}}/services/async/{{version}}/job/{{jobId}}/batch/{{batchId}}/result",
+  "url": "{{_endpoint}}/services/async/{{version}}/job/{{_jobId}}/batch/{{_batchId}}/result",
   "description": null,
   "data": null,
   "dataOptions": null,
@@ -9,7 +9,7 @@
   "headerData": [
     {
       "key": "X-SFDC-Session",
-      "value": "{{access_token}}"
+      "value": "{{_accessToken}}"
     },
     {
       "key": "Accept-Encoding",
@@ -25,10 +25,10 @@
   "queryParams": [],
   "auth": null,
   "events": null,
-  "folder": "3a82ee07-553f-45dd-81c1-37547849b3d3",
+  "folder": "a7522bc1-a6fe-487f-a725-e3b900ccbcd4",
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
-  "headers": "X-SFDC-Session: {{access_token}}\nAccept-Encoding: gzip\nContent-Encoding: gzip\n",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
+  "headers": "X-SFDC-Session: {{_accessToken}}\nAccept-Encoding: gzip\nContent-Encoding: gzip\n",
   "pathVariables": {}
 }

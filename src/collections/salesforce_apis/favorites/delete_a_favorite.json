@@ -1,7 +1,7 @@
 {
-  "id": "221c6776-9c8f-4f37-bb1c-f5bb25508dbe",
+  "id": "d87eeb31-c023-4aeb-9684-6f05a95bf43f",
   "name": "Delete a Favorite",
-  "url": "{{endpoint}}/services/data/v{{version}}/ui-api/favorites/{favoriteId}",
+  "url": "{{_endpoint}}/services/data/v{{version}}/ui-api/favorites/<FAVORITE_ID>",
   "description": "Get a favorite.",
   "data": [],
   "dataOptions": {
@@ -16,7 +16,7 @@
       "enabled": true,
       "key": "Authorization",
       "type": "text",
-      "value": "{{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     }
   ],
   "method": "DELETE",
@@ -35,13 +35,13 @@
       }
     }
   ],
-  "folder": "0bcda5e4-8aaa-4d95-ae67-378325650997",
+  "folder": "4595c8a1-7928-4db0-861d-6dd4ee26d2e7",
   "preRequestScript": null,
   "tests": null,
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
   "rawModeData": "",
-  "headers": "Authorization: {{access_token}}\n",
+  "headers": "Authorization: Bearer {{_accessToken}}\n",
   "pathVariables": {}
 }

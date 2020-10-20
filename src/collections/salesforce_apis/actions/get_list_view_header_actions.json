@@ -1,7 +1,7 @@
 {
-  "id": "ff8712f5-9fa4-4658-b498-8c86b4be80b9",
+  "id": "355348a6-09e4-42ec-ba7c-2f9b918da1e0",
   "name": "Get List View Header Actions",
-  "url": "{{endpoint}}/services/data/v{{version}}/ui-api/actions/list-view/{listViewIds}",
+  "url": "{{_endpoint}}/services/data/v{{version}}/ui-api/actions/list-view/<LIST_VIEW_IDS>",
   "description": "Get the actions on records in related lists.",
   "data": [],
   "dataOptions": null,
@@ -12,7 +12,7 @@
       "enabled": true,
       "key": "Authorization",
       "type": "text",
-      "value": "{{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     }
   ],
   "method": "GET",
@@ -31,7 +31,7 @@
       }
     }
   ],
-  "folder": "1e76f3df-37a1-470e-af23-8123a244a00c",
+  "folder": "c451b8e5-6f6e-4242-9c63-fac725813b42",
   "protocolProfileBehavior": {
     "disableBodyPruning": true
   },
@@ -39,8 +39,8 @@
   "tests": null,
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
   "rawModeData": "",
-  "headers": "Authorization: {{access_token}}\n",
+  "headers": "Authorization: Bearer {{_accessToken}}\n",
   "pathVariables": {}
 }

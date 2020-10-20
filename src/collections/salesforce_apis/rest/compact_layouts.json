@@ -1,7 +1,7 @@
 {
-  "id": "7714f166-ed03-4498-a4fe-056c8e8a0a47",
+  "id": "a9f6e539-9950-41cf-92dd-ffeafae60c09",
   "name": "Compact Layouts",
-  "url": "{{endpoint}}/services/data/v{{version}}/appMenu/compactLayouts?q=",
+  "url": "{{_endpoint}}/services/data/v{{version}}/appMenu/compactLayouts?q=",
   "description": "Returns a list of compact layouts for multiple objects. This resource is available in REST API version 31.0 and later.",
   "data": null,
   "dataOptions": null,
@@ -9,7 +9,7 @@
   "headerData": [
     {
       "key": "Authorization",
-      "value": "Bearer {{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     },
     {
       "key": "Content-Type",
@@ -28,10 +28,10 @@
   ],
   "auth": null,
   "events": null,
-  "folder": "782b69d1-36f1-4b89-a2c4-a09e74d4acfa",
+  "folder": "7e4757ad-56f4-43ad-8175-051e53410941",
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
-  "headers": "Authorization: Bearer {{access_token}}\nContent-Type: application/json\n",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
+  "headers": "Authorization: Bearer {{_accessToken}}\nContent-Type: application/json\n",
   "pathVariables": {}
 }

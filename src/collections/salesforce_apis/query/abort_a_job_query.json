@@ -1,7 +1,7 @@
 {
-  "id": "435b1232-4093-48b4-af10-829c2d47eb89",
+  "id": "f70da91b-5f0c-4344-8b5c-9d51baa9c627",
   "name": "Abort a Job Query",
-  "url": "{{endpoint}}/services/data/v{{version}}/jobs/query/{{jobId}}",
+  "url": "{{_endpoint}}/services/data/v{{version}}/jobs/query/{{_jobId}}",
   "description": null,
   "data": [],
   "dataOptions": null,
@@ -9,7 +9,7 @@
   "headerData": [
     {
       "key": "Authorization",
-      "value": "Bearer {{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     },
     {
       "key": "Content-Type",
@@ -21,11 +21,11 @@
   "queryParams": [],
   "auth": null,
   "events": null,
-  "folder": "56ad4146-858d-4ef6-9736-9a42e5ba575a",
+  "folder": "3fdd1653-9a88-4262-a3d6-ff93b3ef92d8",
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
   "rawModeData": "{\n\t\"state\":\"Aborted\"\n}",
-  "headers": "Authorization: Bearer {{access_token}}\nContent-Type: application/json\n",
+  "headers": "Authorization: Bearer {{_accessToken}}\nContent-Type: application/json\n",
   "pathVariables": {}
 }

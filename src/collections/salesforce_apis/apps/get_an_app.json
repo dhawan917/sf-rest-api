@@ -1,7 +1,7 @@
 {
-  "id": "482fd45a-5136-4b8d-9729-c15ad8807957",
+  "id": "72c8c5a2-19be-4df3-a042-305a3e463289",
   "name": "Get an App",
-  "url": "{{endpoint}}/services/data/v{{version}}/ui-api/apps/{appId}",
+  "url": "{{_endpoint}}/services/data/v{{version}}/ui-api/apps/<APP_ID>",
   "description": "Get metadata about an app.",
   "data": [],
   "dataOptions": {
@@ -16,7 +16,7 @@
       "enabled": true,
       "key": "Authorization",
       "type": "text",
-      "value": "{{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     }
   ],
   "method": "GET",
@@ -35,7 +35,7 @@
       }
     }
   ],
-  "folder": "b0b1d197-1f7f-4a58-8c63-9716ed5b6b77",
+  "folder": "0c1a3d16-0941-4c83-a953-9e8c491ac7c5",
   "protocolProfileBehavior": {
     "disableBodyPruning": true
   },
@@ -43,8 +43,8 @@
   "tests": null,
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
   "rawModeData": "",
-  "headers": "Authorization: {{access_token}}\n",
+  "headers": "Authorization: Bearer {{_accessToken}}\n",
   "pathVariables": {}
 }

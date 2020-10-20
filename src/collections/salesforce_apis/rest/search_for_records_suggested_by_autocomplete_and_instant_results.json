@@ -1,7 +1,7 @@
 {
-  "id": "8200c750-d836-4e9d-9c8e-3ebedc2c516c",
+  "id": "58e76979-c1a7-4ac5-b3e7-5b5c5c62f1fa",
   "name": "Search for Records Suggested by Autocomplete and Instant Results",
-  "url": "{{endpoint}}/services/data/v{{version}}/search/suggestions?q&sobject",
+  "url": "{{_endpoint}}/services/data/v{{version}}/search/suggestions?q&sobject",
   "description": "Returns a list of suggested records whose names match the user’s search string. The suggestions resource provides autocomplete results and instant results for users to navigate directly to likely relevant records, before performing a full search.\n\nhttps://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_search_suggest_records.htm",
   "data": [],
   "dataOptions": null,
@@ -9,7 +9,7 @@
   "headerData": [
     {
       "key": "Authorization",
-      "value": "Bearer {{access_token}}"
+      "value": "Bearer {{_accessToken}}"
     },
     {
       "key": "Content-Type",
@@ -102,14 +102,14 @@
   ],
   "auth": null,
   "events": null,
-  "folder": "782b69d1-36f1-4b89-a2c4-a09e74d4acfa",
+  "folder": "7e4757ad-56f4-43ad-8175-051e53410941",
   "protocolProfileBehavior": {
     "disableBodyPruning": true
   },
   "currentHelper": null,
   "helperAttributes": null,
-  "collectionId": "ad0a8738-1c8a-4ec4-907c-7b6af7470f21",
+  "collectionId": "58651f2c-c011-41d0-b34b-b5609b7d95df",
   "rawModeData": "",
-  "headers": "Authorization: Bearer {{access_token}}\nContent-Type: application/json\n",
+  "headers": "Authorization: Bearer {{_accessToken}}\nContent-Type: application/json\n",
   "pathVariables": {}
 }
